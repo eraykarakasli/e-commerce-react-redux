@@ -21,7 +21,7 @@ function Category({ setCategory }) {
           onClick={()=> setCategory(category)}
           className='text-xl mt-2 cursor-pointer 
           hover:bg-gray-200 p-2 rounded-1
-           ' key={i}>{category}</div>
+           ' key={i}>{category.charAt(0).toUpperCase()+category.slice(1)}</div>
         ))
       }
     </div>

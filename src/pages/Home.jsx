@@ -12,10 +12,10 @@ function Home() {
   return (
     <div>
       <SliderComp />
-      <Sorting />
+      <Sorting setSort={setSort}/>
       <div className='flex'>
         <Category setCategory={setCategory}/>
-        <Products category={category} />
+        <Products category={category} sort={sort}/>
       </div>
     </div>
   )
