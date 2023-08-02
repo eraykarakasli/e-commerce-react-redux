@@ -8,3 +8,18 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
+
+.paginate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginate li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
