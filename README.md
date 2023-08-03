@@ -2,7 +2,10 @@
 
 This project is a basic example of an e-commerce shopping site. It is built using React, Redux, Tailwind CSS, and other tools.
 
-![Görsel Açıklaması](https://example.com/path/to/image.png)
+![Home Page](https://github.com/eraykarakasli/e-commerce/blob/main/README/Screenshot_1.png?raw=true)
+![Home Page More](https://github.com/eraykarakasli/e-commerce/blob/main/README/Screenshot_2.png?raw=true)
+![Cart Page](https://github.com/eraykarakasli/e-commerce/blob/main/README/Screenshot_3.png?raw=true)
+![Detail Page](a)
 
 ## Features
 
