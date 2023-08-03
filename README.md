@@ -1,8 +1,43 @@
-# React + Vite
+# E-Commerce Shopping Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a basic example of an e-commerce shopping site. It is built using React, Redux, Tailwind CSS, and other tools.
 
-Currently, two official plugins are available:
+![Görsel Açıklaması](https://example.com/path/to/image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- List and details of products
+- Cart operations (add, remove, update)
+- Filter products by categories
+- ...
+
+## Requirements
+
+- Node.js (latest LTS version)
+- Yarn (recommended package manager)
+
+## Installation
+
+1. Clone the repository to your computer:
+   ```bash
+   git clone https://github.com/eraykarakasli/e-commerce.git
+   cd project-name
+   yarn install
+   yarn start
+
+The project should now be running at http://127.0.0.1:5173
+
+## Technologies and Libraries Used
+- React
+- React Router Dom
+- Redux
+- Tailwind CSS
+- React Icons
+- Fake Store API (for providing sample data)
+
+## Contributions
+Contributions are welcome. Big or small, we appreciate your contributions.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
