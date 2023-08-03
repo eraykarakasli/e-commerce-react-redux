@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import Navbar from "./components/navbar/Navbar";
 import PageContainer from "./containers/PageContainer";
 import Detail from "./pages/Detail";
+import Cart from "./pages/Cart";
+import Search from "./pages/Search";
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route exact path='/' element={<Home />} />
-            <Route exact path='/products/:id' element={<Detail />} />
+            <Route  path='/' element={<Home />} />
+            <Route  path='/products/:id' element={<Detail />} />
+            <Route  path='/cart' element={<Cart />} />
+            <Route  path='/products/:search' element={<Search />} />
           </Routes>
         </Router>
       </PageContainer>
